@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Avenir;
+}
+.pagetab {
+margin: 20px;
+}
+
+.Name {
+    margin: 20px;
+    border: red solid 1px;
+    position: fixed;
+    background-color: white;
+}
+
+#navigation {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    border: blue solid 1px;
+    font-size: 20px;
+    height: 122px;
+    background-color: white;
+
+   
+}
+li{
+    list-style: none;
+}
+
+a {
+color: black;
+font-style: normal;
+font-size: 20px;
+text-decoration: none;
+}
+
+h1 {
+    font-size: 20px;
+}
+#navBar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+background-color: white;
+height: 122px;
+position: fixed;
+
+}
+
+.logo {
+    border: green solid 1px;
+    display: flex;
+    width: 62px;
+    height: 45px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+    
+
+/*
+.logo {
+   
+    position: fixed;
+    right: 5%;
+    top: 8%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heroGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 1512px;
+    height: 100vh;
+    grid-template-rows: 762.5% 4056.25% 3593.75%;
+    grid-template-columns: 3350% 2137.5% 3475% 2681.25% 3575% 2137.5%    ;
+    grid-template-areas:
+    "rectangle1 name picture";
+
+.left {
+    color: black;
+    font-family: Avenir;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    position: fixed;
+    left: 5%;
+    top: 8%;
+}
+.left, .containerGrid, .logo {
+    height: 50px;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.containerGrid {
+    display: grid;
+    grid-template-columns: 709px 1fr 1fr 1fr 1fr;
+}
+.body {
+    font-family: Avenir;
+}
+
+.container-side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    padding: 2px;
+}
+   
+.inline-block {
+    
+    width: 200px;
+    height: 122px;
+    color: black;
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    
+
+   
+}
+.rectangle1 {
+    width: 1512px;
+    height: 122px;
+    position: fixed;
+    top: 0px;
+    margin-bottom: auto;
+}
+.title {
+    font-size: 130px;
+    color: #F4A2A8;
+    font-family: Avenir;
+    font-weight: 900;
+    line-height: normal;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 26px;
+    word-wrap: break-word;
+    width: 700px;
+    height: 163px;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-style: normal;
+    left: 60px;
+    top: 810px;
+}
+
+.header {
+  left: 165px;
+  top: 190px;
+}
+.rectangle2 {
+width:536px;
+height:789px;
+background-color: #E6E2E4;
+}
+*/
